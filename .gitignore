@@ -1,0 +1,5 @@
+cat
+infile
+res
+outfile
+*.o
