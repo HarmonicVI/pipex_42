@@ -34,8 +34,8 @@ OBJS			= $(SRCS:.c=.o)
 BONUS_OBJS		= $(BONUS_SRCS:.c=.o)
 
 CC				= gcc
-HEADER 			= -I./includes/pipex.h
-BONUS_HEADER	= -I./includes/pipex_bonus.h
+HEADER 			= -I ../includes/pipex.h
+BONUS_HEADER	= -I ../includes/pipex_bonus.h
 CFLAGS			= -Wall -Wextra -Werror
 DFLAGS 			= -g -fsanitize=address
 RM				= rm -f

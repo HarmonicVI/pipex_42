@@ -3,3 +3,7 @@ infile
 res
 outfile
 *.o
+*.a
+1
+2
+pipex

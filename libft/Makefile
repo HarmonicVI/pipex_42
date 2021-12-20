@@ -49,7 +49,7 @@ SRCS			=	$(SRC_PATH)/ft_isspace.c \
 			
 OBJS	= $(SRCS:.c=.o)
 
-HEADER 			= -I./includes/libft.h -I./includes/get_next_line.h
+HEADER 			= -I../includes/libft.h -I../includes/get_next_line.h
 LIBC 			= ar rc
 LIBR 			= ranlib
 
